@@ -72,6 +72,35 @@ site:linkedin.com/jobs "Business Analyst" "stakeholder management" Bangalore
 site:naukri.com "B2B" "account manager" OR "partnerships" Bangalore
 ```
 
+### Priority 5: Brand Marketing
+
+Broadened at the candidate's request (2026-11-06) to widen the daily application pool beyond Strategy & Consulting, after that run showed most brand-name strategy roles gate on 2-6+ years post-MBA experience the candidate doesn't yet have. These are entry/associate-level MBA-fresher tracks more realistically winnable at the ₹10L+ target.
+
+```
+site:naukri.com "Brand Manager" MBA fresher Bangalore
+site:naukri.com "Assistant Brand Manager" Bangalore
+site:linkedin.com/jobs "Brand Manager" OR "Marketing Manager" MBA Bangalore India
+site:iimjobs.com "Brand" "Management Trainee" OR fresher
+```
+
+### Priority 6: Business Analyst (entry/associate level)
+
+```
+site:naukri.com "Business Analyst" MBA fresher Bangalore
+site:naukri.com "Associate Consultant" MBA Bangalore
+site:linkedin.com/jobs "Business Analyst" MBA fresher India
+site:iimjobs.com "Business Analyst" 0-2 yrs
+```
+
+### Priority 7: Operations Analyst / Operations Associate
+
+```
+site:naukri.com "Operations Analyst" MBA Bangalore
+site:naukri.com "Operations Associate" fresher Bangalore
+site:linkedin.com/jobs "Operations Analyst" MBA India
+site:iimjobs.com "Operations" "Management Trainee" OR fresher
+```
+
 ## Location Filter
 
 When evaluating results, verify the job location is within reasonable commute distance from your home, or is remote/hybrid. Define acceptable areas:
