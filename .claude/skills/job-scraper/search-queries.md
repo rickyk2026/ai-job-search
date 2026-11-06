@@ -13,68 +13,72 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **naukri.com** - India's largest general job board
+- **linkedin.com/jobs** - LinkedIn job listings (filter: India / Bangalore); also covered by `linkedin-search` CLI
+- **instahyre.com** - a niche board strong on management/strategy/BA roles (optional)
+- **iimjobs.com** - MBA/management-focused board, strong for Management Trainee & Strategy roles (optional)
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
 
 ## Query Categories
 
-Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries are grouped by priority. Combine each query with your location terms (Bangalore / India) where the site supports it.
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Strategy & Consulting
 
 These match your strongest and most desired career direction.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
+site:naukri.com "Strategy Consultant" Bangalore
+site:naukri.com "Management Consultant" Bangalore
+site:naukri.com "Business Analyst" Bangalore
+site:linkedin.com/jobs "Strategy Consultant" India
+site:linkedin.com/jobs "Management Consultant" India
+site:iimjobs.com "Strategy" Bangalore
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: Management Trainee / MBA Programs
 
-These match your domain expertise.
-
-```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
-```
-
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
+Rotational/leadership development programs aimed at MBA graduates.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:naukri.com "Management Trainee" Bangalore
+site:naukri.com "MBA" "Management Trainee" India
+site:linkedin.com/jobs "Management Trainee" Bangalore India
+site:iimjobs.com "Management Trainee" OR "MT Program"
 ```
 
-### Priority 4: Broader Technical / Consulting
+### Priority 3: Business Process Consulting / Business Analysis (domain expertise)
 
-Wider net for general technical roles.
+These match your domain expertise in BPMN, SAP Signavio, and process transformation.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:naukri.com "Business Process Consultant" Bangalore OR India
+site:naukri.com "Process Analyst" SAP Bangalore
+site:linkedin.com/jobs "Business Process Consultant" Bangalore India
+site:instahyre.com "Business Analyst" process
+```
+
+### Priority 4: Broader B2B / Project Management
+
+Wider net for adjacent roles you could pivot into.
+
+```
+site:naukri.com "Project Manager" stakeholder Bangalore
+site:linkedin.com/jobs "Business Analyst" "stakeholder management" Bangalore
+site:naukri.com "B2B" "account manager" OR "partnerships" Bangalore
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location is within reasonable commute distance from your home, or is remote/hybrid. Define acceptable areas:
+- Bangalore and surrounding areas (Whitefield, Electronic City, Koramangala, Indiranagar, etc.)
+- Other major Indian metros (Delhi NCR, Mumbai, Pune, Hyderabad, Chennai) - acceptable given openness to relocation
+- Fully remote roles (India-based) - acceptable
+- Outside India without visa/relocation support - too far (per Deal-breakers in CLAUDE.md)
 
 ## Language Filter
 

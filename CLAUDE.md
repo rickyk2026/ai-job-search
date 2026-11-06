@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Ricky Kalo
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Ricky Kalo, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,79 +10,74 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Ricky Kalo
+- **Location:** Bangalore, India (open to roles in Bangalore; flexible on relocation elsewhere in India for the right role)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | English | Fluent / professional working proficiency |
+  | Hindi | Fluent |
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed (Senior Manager – Institutional Partnerships, Quick Clean Laundry Systems), MBA candidate graduating 2026, open to new roles
+- **LinkedIn headline:** "Business Process Consulting | Strategy & Stakeholder Management | Business Analysis"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MBA** (2024-2026) - Indian Institute of Management Bodh Gaya
+- **B.Tech in Electrical Engineering** (2019-2023) - VSSUT Burla, Sambalpur
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Senior Manager – Institutional Partnerships** (Apr 2026 - Present) - **Quick Clean Laundry Systems**
+  - Led end-to-end business process consulting engagements for 44 institutional accounts; modelled as-is/to-be processes (BPMN 2.0) using SAP Signavio and mapped ERP/CRM integration points, advancing 77% of accounts into active pipeline.
+  - Facilitated requirement-gathering workshops with C-suite and operations leadership, achieving 73% decision-maker coverage (32 of 44 accounts); converted stakeholder input into structured process documentation and proposals.
+  - Designed KPI dashboards benchmarking process efficiency against industry standards; findings supported Rs. 7 Cr+ in process/investment decisions and an 86% cycle-time/distance reduction through process redesign.
+  - Conducted root-cause analysis of operational bottlenecks, isolating a single issue responsible for 50% of stalled processes (3,435 units/day), and proposed a redesigned operating model to resolve it.
+- **Marketing & Digital Transformation Intern** (Apr 2025 - May 2025) - **Air Flow Pvt Ltd**
+  - Mapped 15+ end-to-end workflows across production, inventory, and sales on Frappe ERP (ERPNext); identified bottlenecks contributing to a 20% increase in cycle time.
+  - Standardized SOPs across Material Management and Sales & Distribution, cutting production lead time by 15% and reducing cross-team handoff delays.
+  - Translated business requirements into process documentation and system configurations, enabling rollout across 3+ departments with minimal post-go-live rework.
+
+### Key Projects
+- **Demand Forecasting & Inventory Analytics — Reliance Retail (2024):** Built a demand forecasting model (Python, Excel) achieving 85% accuracy across 18,000+ SKUs; used SQL extraction and pivot analysis to frame stockout/overstock risk as a measurable business problem; delivered a prioritized findings deck securing sign-off across 3+ stakeholder groups within 2 weeks.
+- **Sports IT Infrastructure — Product Analytics & System Design (2025):** Authored BRD/FRS documentation and built Figma prototypes for slot booking, waitlisting, and real-time occupancy features, aligning technical feasibility with user needs across Agile sprints.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Business Process Consulting, BPMN 2.0 Process Modelling, SAP Signavio, BRD/FRS Documentation, Stakeholder Management, Root-Cause Analysis, Lean Six Sigma DMAIC
+- **Secondary:** Project Management, Cross-Functional Collaboration, Agile/Scrum, Jira (Atlassian), KPI & Dashboard Design, C-Suite Presentations
+- **Domain:** ERP & CRM Process Design, Business Analysis, Strategy & Consulting
+- **Software:** Python, SQL, Excel (Advanced), Power BI, Google Analytics, A/B Testing, Demand Forecasting, Generative AI Fundamentals, Figma
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **SAP Foundations of Business Analysis** - Coursera (SAP Authorized) - 2026
+- **Lean Six Sigma Green Belt** - Grant Thornton - 2024
+- **Generative AI for Product Managers** - 2025
+- **Generative AI for Business Leaders** - 2025
+- **Data Analytics Fundamentals** - 2024
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None currently.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None listed; see Leadership & Extracurricular below.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Strengths:** Stakeholder management and C-suite facilitation, translating ambiguous business requirements into structured process documentation, data-driven KPI storytelling, cross-functional process redesign
+- **Growth areas:** Deepening hands-on data/analytics tooling (Python/SQL) toward more technical BA/strategy roles
+- **Thrives in:** Client-facing, process-transformation environments with cross-functional stakeholder exposure and measurable business impact
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Translating messy, ambiguous business problems into structured, measurable process improvements
+- Working directly with senior stakeholders / C-suite to drive decisions backed by data
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Management Consulting / Strategy: MBB, Big 4 consulting arms (Deloitte, EY, KPMG, PwC), boutique strategy firms
+- B2B / Enterprise Tech & Process Transformation: SAP ecosystem partners, ERP/CRM consulting firms, enterprise SaaS
+- Corporate Strategy / Management Trainee programs at large Indian and MNC enterprises
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Roles requiring relocation far outside India without visa/relocation support
+- Roles with no process-improvement, strategy, or stakeholder-management component (pure individual-contributor technical roles unrelated to business analysis/consulting)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
