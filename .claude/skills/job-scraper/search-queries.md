@@ -103,9 +103,11 @@ site:iimjobs.com "Operations" "Management Trainee" OR fresher
 
 ## Location Filter
 
+Updated 2026-11-06 at the candidate's request: target cities widened from Bangalore-only to Bangalore, Pune, Chennai, Hyderabad, and Gurgaon.
+
 When evaluating results, verify the job location is within reasonable commute distance from your home, or is remote/hybrid. Define acceptable areas:
-- Bangalore and surrounding areas (Whitefield, Electronic City, Koramangala, Indiranagar, etc.)
-- Other major Indian metros (Delhi NCR, Mumbai, Pune, Hyderabad, Chennai) - acceptable given openness to relocation
+- **Primary target cities:** Bangalore (and surrounding areas - Whitefield, Electronic City, Koramangala, Indiranagar, etc.), Pune, Chennai, Hyderabad, Gurgaon (Gurugram)
+- Other major Indian metros (Delhi NCR beyond Gurgaon, Mumbai) - acceptable given openness to relocation
 - Fully remote roles (India-based) - acceptable
 - Outside India without visa/relocation support - too far (per Deal-breakers in CLAUDE.md)
 

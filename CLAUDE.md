@@ -12,7 +12,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Ricky Kalo
-- **Location:** Bangalore, India (open to roles in Bangalore; flexible on relocation elsewhere in India for the right role)
+- **Location:** Bangalore, India (open to roles in Bangalore, Pune, Chennai, Hyderabad, and Gurgaon; flexible on relocation elsewhere in India for the right role)
 - **Languages:**
   | Language | Level |
   |----------|-------|
