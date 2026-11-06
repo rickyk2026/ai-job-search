@@ -61,6 +61,11 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ### Awards
 - None listed; see Leadership & Extracurricular below.
 
+### Leadership & Extracurricular
+- **E-Cell, IIM Bodh Gaya**: Organized 4+ startup events.
+- **TEDx POC**: Led a 20+ member team for an event reaching 1,000+ viewers.
+- **NGO Digital Marketing (Volunteer)**: Mobilized 40+ volunteers supporting 500+ beneficiaries.
+
 ### Behavioral Profile
 - **Strengths:** Stakeholder management and C-suite facilitation, translating ambiguous business requirements into structured process documentation, data-driven KPI storytelling, cross-functional process redesign
 - **Growth areas:** Deepening hands-on data/analytics tooling (Python/SQL) toward more technical BA/strategy roles
